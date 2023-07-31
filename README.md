@@ -1,2 +1,2 @@
 # IcreatechsStudyHub
-This is the repository for assignments submission.
+This is the repository for assignment submission.
