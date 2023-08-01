@@ -4,3 +4,13 @@ body {
     
 }
 
+#container {
+    display: flex;
+    margin-top: 4%;
+    justify-content: center;
+}
+
+table {
+    border: 1px solid black;
+    padding: 20px;
+}
