@@ -18,23 +18,23 @@
     <!--# Survery from goes here-->
 
     <h1>Survey Form</h1>
-    <form action="#" method="post">
+    <form class="form" action="#" method="post">
 
-        <label for="name">Name:</label>
+        <label class="label-design" for="name">Name</label>
         <input type="text" id="name">
         <br>
 
-        <label for="age" >Age:</label>
+        <label class="label-design" for="age" >Age</label>
         <input type="number" id="age">
         <br>
-
+        <label class="label-design">Gender</label>
         <input type="radio" name="gender" value="male" id="male">
         <label for="male">Male</label>
         <input type="radio" name="gender" value="female" id="female">
         <label for="female">Female</label>
         <br>
 
-        <label>Which programming language do you know?</label>
+        <label class="label-design-cb">Which programming language do you know?</label>
         <br>
         <input type="checkbox" name="language" value="C" id="c">
         <label for="c">C</label>
@@ -46,11 +46,11 @@
         <label for="python">Python</label>
         <br>
         
-        <label for="comment">Comments:</label>
+        <label class="label-design" for="comment">Comments</label>
         <textarea name="comment" id="comment" cols="50" rows="1"></textarea>
         <br>
 
-        <input type="sumbmit" value="Submit">
+        <input type="submit" value="Submit">
     </form>
 
     <!--For CSS contributors kindly use the external style sheet assignment2.css to style these elements-->
